@@ -1,0 +1,215 @@
+app_name = "rita"
+save_interval = 172800
+
+[exit_client]
+current_exit = "test"
+lan_nics = ["lan"]
+low_balance_notification = true
+wg_listen_port = 59999
+
+[exit_client.contact_info]
+sequence_number = 33
+[exit_client.contact_info.number.code]
+source = "plus"
+value = 1
+
+[exit_client.contact_info.number.national]
+value = 7042470727
+zeros = 0
+[exit_client.new_exits.africa]
+description = "Althea Africa exit"
+eth_address = "0xEba3aF4E87663b3Bb57FC89976502b960e3906ff"
+message = "Got info successfully"
+registration_port = 4875
+state = "GotInfo"
+subnet = "fd00::1337:2e2f/120"
+wg_public_key = "V0tgdQ2Ljx5xyw4UMQ6a7ZztQmyvqrUp/4jrFcCeG1w="
+
+[exit_client.new_exits.africa.general_details]
+description = "Althea Africa exit"
+exit_currency = "Xdai"
+exit_price = 10000000
+netmask = 16
+server_internal_ip = "172.168.0.254"
+verif_mode = "Phone"
+wg_exit_port = 59999
+
+[exit_client.new_exits.apac]
+description = "In Singapore"
+eth_address = "0xE4AD1F9aA23957D294D869B70fC8F28774dF896E"
+registration_port = 4875
+state = "New"
+subnet = "fd00::1337:4e2f/120"
+wg_public_key = "1kKSpzdhI4kfqeMqch9I1bXqOUXeKN7EQBecVzW60ys="
+
+[exit_client.new_exits.ca]
+description = "Canada Althea Exit"
+eth_address = "0x90b82ED41dCD867Df7d2aedAB62280E82FCd64F3"
+registration_port = 4875
+state = "New"
+subnet = "fd00::1337:3e9f/120"
+wg_public_key = "D0z23bOTn5RQgM87nuxx6zgmFMMAKBHXSOXopHtZhTc="
+
+[exit_client.new_exits.exit_other]
+description = ""
+eth_address = "0x0101010101010101010101010101010101010101"
+message = "Got info successfully"
+registration_port = 4875
+state = "GotInfo"
+subnet = "fd00::1377/120"
+wg_public_key = "KaTbsJ0Hur4D7Tcb+nc8ofs7n8tKL+wWG3H38KFCwlE="
+
+[exit_client.new_exits.exit_other.general_details]
+description = "EDITEDITjust a normal althea exit"
+exit_currency = "Xdai"
+exit_price = 50
+netmask = 24
+server_internal_ip = "172.168.1.254"
+verif_mode = "Off"
+wg_exit_port = 59999
+
+[exit_client.new_exits.pr]
+description = "Puerto Rico Exit"
+eth_address = "0x6c806Fea0fE17CCdc90312E5dFe53D69EaFE7762"
+registration_port = 4875
+state = "New"
+subnet = "fd00::1337:eaf1/120"
+wg_public_key = "2wnoOmOuCwqV6dIjzn0uaALSxhwx+w8XH2neUr5NRUY="
+
+[exit_client.new_exits."random exit"]
+description = "random exit tesitng "
+eth_address = "0x0101010101010101010101010101010101010101"
+registration_port = 4875
+state = "New"
+subnet = "fd00::1200/128"
+wg_public_key = "KaTbsJ0Hur4D7Tcb+nc8ofs7n8tKL+wWG3H38KFCwlE="
+
+[exit_client.new_exits.revabit]
+description = "Revabit Africa Exit"
+eth_address = "0xfd6E3Cb9699811e2EeE72825a141EE7e7e6d46F4"
+registration_port = 4875
+state = "New"
+subnet = "fd01::3737:1/120"
+wg_public_key = "IQXzsopZ8O6iAssJAxtdE7VSqmY3x6eHuy39giKHc3k="
+
+[exit_client.new_exits.south_america_eth]
+description = "Nodo de salida de America del Sur"
+eth_address = "0x81B6c9F8cfD8f135743A9D39b3b0386024eA4Cc8"
+registration_port = 4875
+state = "New"
+subnet = "fd00::1337:6e2f/120"
+wg_public_key = "AlsMwUkJmiA+EQ45p+n+RAtXq1rCA51k58HRwlzoETs="
+
+[exit_client.new_exits.test]
+description = "The Althea testing exit cluster. Unstable!"
+eth_address = "0x5AeE3Dff733F56cFe7E5390B9cC3A46a90cA1CfA"
+registration_port = 4875
+state = "New"
+subnet = "fd00::1337:1e0f/120"
+wg_public_key = "zgAlhyOQy8crB0ewrsWt3ES9SvFguwx5mq9i2KiknmA="
+
+[exit_client.new_exits.us_west]
+description = "The Althea Production US exit"
+eth_address = "0x72d9E579f691D62aA7e0703840db6dd2fa9fAE21"
+message = "Registration OK"
+registration_port = 4875
+state = "Registered"
+subnet = "fd00::1337:e2f/120"
+wg_public_key = "jkIodvXKgij/rAEQXFEPJpls6ooxXJEC5XlWA1uUPUg="
+
+[exit_client.new_exits.us_west.general_details]
+description = "Althea Portland Exit"
+exit_currency = "Xdai"
+exit_price = 10000000
+netmask = 16
+server_internal_ip = "172.168.0.254"
+verif_mode = "Phone"
+wg_exit_port = 59999
+
+[exit_client.new_exits.us_west.our_details]
+client_internal_ip = "172.168.3.106"
+
+[localization]
+display_currency_symbol = true
+wyre_enabled = true
+[localization.support_number.code]
+source = "plus"
+value = 1
+
+[localization.support_number.national]
+value = 8664258432
+zeros = 0
+
+[log]
+dest_url = "https://stats.altheamesh.com:9999/compressed_sink/"
+enabled = true
+level = "INFO"
+
+[network]
+babel_port = 6872
+backup_created = false
+device = "gl-b1300"
+discovery_ip = "ff02::1:8"
+external_nic = "eth0.4"
+light_client_hello_port = 4878
+light_client_router_ip = "192.168.30.1"
+manual_peers = ["africa.althea.net", "ca.althea.net", "sa-eth.althea.org", "apac.altheamesh.com", "test.althea.org", "exit.altheamesh.com", "borked.altheamesh.com", "sa.althea.org", "10.45.0.1", "23.239.5.112"]
+mesh_ip = "fdf0:b794:8d0b:9db:ed02:791:c11f:df75"
+metric_factor = 1900
+nickname = "pranay test"
+peer_interfaces = ["mesh"]
+rita_contact_port = 4874
+rita_dashboard_port = 4877
+rita_hello_port = 4876
+rita_tick_interval = 5
+usage_tracker_file = "/etc/rita-usage-tracker.bincode"
+wg_private_key = "QN5P5Q+4qq8/54KYzznxRaIURzr87z4XNxLEQShHa2U="
+wg_private_key_path = "/tmp/priv"
+wg_public_key = "kHAlBpDU3dHu+hGq8cnzR18xk8uHpyTQqiU1U2BEUC8="
+wg_start_port = 60000
+
+[network.last_default_route]
+nic = "eth0.4"
+src = "192.168.1.160"
+via = "192.168.1.254"
+
+[network.shaper_settings]
+enabled = true
+max_speed = 200
+min_speed = 35
+
+[operator]
+display_operator_setup = true
+force_use_operator_price = false
+operator_address = "0x073Ea19Da372566298Abcbe6042c4738367db941"
+operator_fee = "3805175038052"
+use_operator_price = true
+
+[payment]
+apply_incoming_credit_immediately = false
+balance_warning_level = "7000000000000000000"
+bridge_enabled = true
+client_can_use_free_tier = true
+debt_limit_enabled = true
+debts_file = "/etc/rita-debts.bincode"
+dynamic_fee_multiplier = 20
+eth_address = "0xDccC8E230Aa4F4b9c1F3EaDBDA08c14B5eBFd3cc"
+eth_private_key = "0x5a3915898776d6716484ac5d111ed553f85776dd2f9127ba37b171ac98387629"
+forgive_on_reboot = true
+free_tier_throughput = 1000
+light_client_fee = 10000000
+local_fee = 90000000
+max_fee = 500000000
+min_gas = "2000000000"
+node_list = ["https://eth.althea.org:443", "https://mainnet.infura.io/v3/6b080f02d7004a8394444cdf232a7081"]
+simulated_transaction_fee = 10
+simulated_transaction_fee_address = "0xEE8BBA37508cd6f9dB7c8AD0AE2b3DE0168c1b36"
+system_chain = "Ethereum"
+withdraw_chain = "Ethereum"
+
+[payment.bridge_addresses]
+eth_full_node_url = "https://eth.althea.org"
+helper_on_xdai = "0x6A92e97A568f5F58590E8b1f56484e6268CdDC51"
+xdai_bridge_on_eth = "0x4aa42145Aa6Ebf72e164C9bBC74fbD3788045016"
+xdai_bridge_on_xdai = "0x7301CFA0e1756B71869E93d4e4Dca5c7d0eb0AA6"
+xdai_full_node_url = "https://dai.althea.org"
